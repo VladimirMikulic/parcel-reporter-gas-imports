@@ -35,6 +35,19 @@ Because of this, it won't apply any code transformation to those files and won't
 npm i parcel-reporter-gas-imports -D
 ```
 
+## 🔌 Configuration
+
+We need to create `.parcelrc` configuration file and add the plugin to reporters like this:
+
+> Syntax "..." instructs Parcel to apply the plugin on top of existing reporters
+
+```js
+{
+  "extends": "@parcel/config-default",
+  "reporters": ["...", "parcel-reporter-gas-imports"]
+}
+```
+
 ## :cloud: Usage
 
 The plugin allows you to include your JS and CSS just like you would normally do it in HTML:

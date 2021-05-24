@@ -1,6 +1,6 @@
 {
   "name": "parcel-reporter-gas-imports",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parcel plugin that enables bundling of Google App Script HTML.",
   "main": "lib/index.js",
   "engines": {
@@ -11,6 +11,7 @@
     "google apps script",
     "google apps script html"
   ],
+  "funding": "https://ko-fi.com/vladimirmikulic",
   "homepage": "https://github.com/VladimirMikulic/parcel-reporter-gas-imports#readme",
   "repository": {
     "type": "git",
